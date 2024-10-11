@@ -19,6 +19,6 @@ for FP in $FILE_PREFIXES; do
 
   # Run trimmomatic
   trimmomatic PE $INFILES $OUTFILES $TRIMMER > $LOG 2>&1
-done
+done 
 
 
